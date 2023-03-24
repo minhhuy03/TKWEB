@@ -1,0 +1,72 @@
+body{
+  background-color:white;
+  font-size: 20px;
+  background-color: rgb(207, 207, 151);
+ 
+}
+
+
+/* Header **/
+header{
+  color: rgb(212, 63, 143);
+margin: -8px;   
+border-radius: 25px;
+padding-left: 12px;
+padding-top:20px;
+padding-bottom: 5px;
+background-color: rgb(94, 207, 207);
+border-bottom: 3px solid black; 
+}
+
+header a{
+  text-decoration: none;
+}
+
+header li{
+  display: inline-block;
+  padding-right: 24px;
+}
+
+header #branding{
+  color:white;
+
+}
+
+header #branding h1{
+  color:white;
+
+}
+
+header nav{
+ position: initial;
+ transform: translateX(0);
+ opacity: 1;
+ display:flex;
+ justify-content:flex-end;
+ align-items:center;
+
+}
+
+header .highlight, header .current a{
+  color: rgb(139, 150, 139);
+
+}
+
+header a:hover{
+  background-color: rgb(224, 86, 160);
+  color:beige;
+
+}
+
+
+footer{
+  background-color: rgb(103, 103, 175) ;
+  padding: 15px;
+  margin: -8px;
+  text-align: center;
+}
+
+#newsletter form input[type="email"], .quote input, .quote textarea{
+  color:gray;
+    
+  }
