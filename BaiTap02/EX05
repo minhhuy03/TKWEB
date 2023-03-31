@@ -10,48 +10,44 @@ body{
 
 /* Header **/
 header{
-  color: rgb(212, 63, 143);
-margin: -8px;   
+color: rgb(212, 63, 143);
+   
 border-radius: 25px;
-padding-left: 12px;
-padding-top:20px;
-padding-bottom: 5px;
+min-height: 70px;
+padding-top:30px;
 background-color: rgb(94, 207, 207);
 border-bottom: 3px solid black; 
-text-align: center;  
+
 
 }
 
 header a{
   text-decoration: none;
-  font-weight: 20px;
-  color: rgb(228, 172, 172);
+  text-transform: uppercase;
+  color: pink;
 
 }
 
 header li{
+  float:left;
   display: inline-block;
-  padding-right: 24px;
-
+  padding:0 20px 0 21px;
+  
 }
 
 header #branding{
-  color:white;
+  float: left;
 
 }
 
 header #branding h1{
-  color:white;
-
+  
+  margin: 10px;
 }
 
 header nav{
-  position: initial;
-  transform: translateX(0);
-  opacity: 1;
-  display:flex;
-  justify-content:flex-end;
-  align-items:center;
+  float: right;
+  margin-top: 10px;
 
 }
 
@@ -63,7 +59,7 @@ header .highlight, header .current a{
 header a:hover{
   background-color: rgb(224, 86, 160);
   color:beige;
-
+  font-weight: bold;
 
 }
 
@@ -76,6 +72,5 @@ footer{
      
 }
 
-#newsletter form input[type="email"], .quote input, .quote textarea{
-    
-  }
+
+
